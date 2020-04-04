@@ -145,7 +145,7 @@ def cli(url, repositories, search, table, rows, minstar, report, description, to
     if not repositories:
         destination = "package"
         destinations = "packages"
-    page_url = "{0}/network/dependents?dependent_type={1}".format(url, destination.upper())
+    page_url = "{0}/network/dependents?dependent_type={1}&package_id=UGFja2FnZS00NjAxODg0MTY%3D".format(url, destination.upper())
 
     repos = []
     more_than_zero_count = 0
